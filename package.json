@@ -10,6 +10,10 @@
     "build": "cd client && npm run build",
     "seed": "cd server && npm run seed"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikecota09/Book-Search-Engine"
+  },
   "keywords": [],
   "author": "Michael Cota",
   "license": "ISC",
