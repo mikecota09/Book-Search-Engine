@@ -11,3 +11,8 @@
 - Apollo Server is applied it to the Express.js server as middleware.
 - Authentication tackled by the context of a GraphQL API.
 - Apollo Provider implemented to communicate with the Apollo Server.
+
+## Screenshots
+
+![](./client/src/screenshot1.png)
+![](./client/src/screenshot2.png)
