@@ -35,3 +35,7 @@ Link to the deployed site https://mikecota09.github.io/Book-Search-Engine/
 
 ![](./client/src/screenshot1.png)
 ![](./client/src/screenshot2.png)
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact [Mike Cota](https://github.com/mikecota09) directly at mikecotahf@gmail.com
