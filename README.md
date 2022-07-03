@@ -12,6 +12,25 @@
 - Authentication tackled by the context of a GraphQL API.
 - Apollo Provider implemented to communicate with the Apollo Server.
 
+## Technologies Used
+
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+
+## Installation
+
+To clone the repository run `git clone https://github.com/mikecota09/Book-Search-Engine` in your terminal. After cloning the repo, run `npm install` to install the necessary dependencies.
+
+## Usage
+
+After installing all the dependencies, run `npm start` in your terminal to start the application.
+
+## Deployment
+
+Link to the deployed site https://mikecota09.github.io/Book-Search-Engine/
+
 ## Screenshots
 
 ![](./client/src/screenshot1.png)
