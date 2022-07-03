@@ -1,5 +1,6 @@
 {
   "name": "googlebooks-app",
+  "homepage": "https://mikecota09.github.io/Book-Search-Engine/",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -8,7 +9,9 @@
     "start:prod": "cd server && npm start",
     "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "heroku-postbuild": "cd client && npm run build"
+    "heroku-postbuild": "cd client && npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
